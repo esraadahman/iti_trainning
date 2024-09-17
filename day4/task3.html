@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Display</title>
+</head>
+
+<body>
+
+  <script>
+  var array = []; 
+    var input = prompt("Enter the number of elements:");
+    var length = parseInt(input);
+
+    for (var i = 0; i < length; i++) {
+      var elementInput = prompt("Enter element " + (i + 1) + ":");
+      var element = parseInt(elementInput);
+
+      if (isNaN(element)) {
+        console.log("Please enter a valid number.");
+        i--; 
+      } else {
+        array.push(element);
+      }
+    }
+  console.log("Array:", array);
+
+  array.sort(function (a, b) {
+    return a - b;
+  });
+  console.log("ascnding Array:", array);
+  console.log("descending Array", array.reverse());
+
+
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+.head{
+  background-image: url("../images/pexels-pixabay-33545.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+} 
+.nav{
+  width: 40%;
+  text-align: center;
+  display: inline-flex;
+  background-color: rgb(221, 106, 106);
+  margin: 5% 30%;
+  margin-bottom: 200px;
+}
+
+
+.links {
+  font-weight: 800;
+  padding: 0 7%;
+  float: left;
+}
+
+.link{
+    font-weight: 800;
+      padding: 0 7%;
+      float: right;
+}
+.clear{
+  clear: both;
+}
+.content{
+  text-align: center;
+  font-weight: bold;
+  color: white;
+
+}
+.button{
+  background-color: rgb(143, 118, 115,.4);
+  width: 10%;
+  text-align: center;
+  /* position: absolute; */
+  margin-bottom: 100px;
+  /* padding-bottom: 100px; */
+}
+
+.content2 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+
+}
+
+
+.image{
+  width: 250px;
+    height: 300px;
+    border-radius: 10px;
+}
+.oo{
+  width: 20%;
+  height: 150px;
+  background-color: blueviolet;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.ooo{
+  margin-left: 100px;
+  margin-top: 50px;
+}

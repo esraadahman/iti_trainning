@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Display</title>
+</head>
+
+<body>
+
+  <script>
+
+  var sum = 0;
+  var count = 0;
+    var input1 = prompt("Enter the number of elements:");
+      var length = parseInt(input);
+  while (input1--) {
+    var input = prompt("Enter a number :");
+  var number = parseInt(input);
+if (isNaN(number)) {
+      console.log("Please enter a valid number.");
+      continue;
+    }
+    if (number === 0 || sum + number > 100) {
+      break;
+    }
+
+    sum += number;
+    count++;
+  }
+
+  console.log("The sum is: " + sum);
+  
+
+  </script>
+
+</body>
+
+</html>

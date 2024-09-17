@@ -1,0 +1,53 @@
+.one {
+  width: 22%;
+  float: left;
+  background-color: rgb(204, 106, 106);
+  padding-top: 50px;
+  margin-top: 50px;
+  margin-left: 10px;
+  text-align: center;
+  height: 100px;
+  border: solid black 2px;
+
+}
+
+body {
+  background-color: rgb(228, 232, 221);
+}
+
+.clear {
+  clear: both;
+}
+
+.parent {
+  margin-left: 50px;
+}
+
+.span1 {
+  margin-left: 50px;
+  margin-top: 100px;
+  background-color: black;
+  border: 5px white solid;
+  width: 60px;
+  height: 50px;
+
+}
+
+.content {
+  margin-left: 50px;
+  width: 250px;
+}
+
+.heading1 {
+  margin-top: auto;
+}
+
+.big {
+  float: left;
+}
+
+.footer {
+  background-color: black;
+  height: 50px;
+  margin-top: 50px;
+}

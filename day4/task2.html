@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Display</title>
+</head>
+
+<body>
+
+  <script>
+
+    function check(num) {
+        if (isNaN(num)) {
+          console.log("Please enter a valid number.");
+          return true;
+        }
+        return false;
+      }
+
+      function promptForValidNumber(Message) {
+        var number;
+        do {
+          var input = prompt(Message);
+          number = parseInt(input);
+        } while (check(number)); // Re-prompt if the input is invalid
+        return number;
+      }
+
+      var number1 = promptForValidNumber("Enter 1st number:");
+      var number2 = promptForValidNumber("Enter 2nd number:");
+      var number3 = promptForValidNumber("Enter 3rd number:");
+  
+function sum(n1,n2,n3){
+  return n1+n2+n3;
+}
+
+  function mul(n1, n2, n3) {
+    return n1 * n2 * n3;
+  }
+
+    function div(n1, n2, n3) {
+      return n1 / n2 / n3;
+    }
+
+      console.log("the sum is "+ sum(number1,number2,number3));
+        console.log("the multipl is " + mul(number1,number2,number3));
+          if (number1 == 0 || number2 == 0 || number3 == 0) {
+        console.log("the div not possible")
+            }
+            else{
+          console.log("the div is " + div(number1,number2,number3));
+        }
+
+
+  </script>
+
+</body>
+
+</html>
