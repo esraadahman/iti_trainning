@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(212, 156, 245);
+  }
+  table{
+    border-radius: 10px;
+    border-color: purple;
+  }
+  th{
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+    width: 95px;
+  }
+  #btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: purple;
+    color: white;
+    margin-left: 240px;
+  }
+  td{
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    background-color:rgb(41, 1, 41);
+  }
+  #myButton{
+      border-radius: 5px;
+    font-size: medium;
+    margin-top: 5;
+      background-color: purple;
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+  
+  }
+  
+  label{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
